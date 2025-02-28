@@ -19,7 +19,7 @@ $angka3 = 2.64;
 
 $angka *= $angka2;
 
-echo "angka hari ini adalah ". max( 5, 10, 8, 5);
+echo "angka hari ini adalah ". min( $angka3, $angka2, $angka);
 
 
   ?>
