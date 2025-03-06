@@ -10,9 +10,9 @@
 
  <?php
 
-$data = ['nama' => 'tian',
-         'umur' => 22,
-         'sifat' => 'rajin menabung']; 
+$data = ['nama' =>'tian',
+         'umur' =>22,
+         'sifat' =>'rajin menabung']; 
 
 foreach ($data as $key => $value){
     echo $value . "<br>";
