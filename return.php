@@ -26,8 +26,13 @@ jarak();
 print_text("perawat", 21);
 jarak();
 print_text("mengemudi", 213);
-jarak();
 
+function menghitung($x, $y){
+    $z = $x * $y;
+    return $z;
+}
+$hasil = menghitung(2,5) * 10;
+echo "hasil dari penjumlahan". $hasil;
 ?>
 
 <body>
