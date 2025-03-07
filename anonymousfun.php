@@ -19,7 +19,7 @@ return $c;
 }
 //echo menghitung();
 
-$ngetrik = function($text){
+$ngetik = function($text){
     echo $text;
 };
 
