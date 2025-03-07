@@ -11,7 +11,7 @@
  <?php
 
 function berteriak($callback){
-    echo 'Haloo' <br>;
+    
 
     if (is_callable($callback)){
         call_user_func($callback, 'selamat datang');
@@ -20,12 +20,14 @@ function berteriak($callback){
 }else {
     echo 'dia bukan fungsi';
 }
+
 }
 
 $panggil = function($text){
 echo $text;
 };
 berteriak ($panggil);
+
 ?>
 
 
